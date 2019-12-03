@@ -1,14 +1,17 @@
 import Vue from 'vue'
+import BootstrapVue from 'bootstrap-vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+// import Home from '../views/Home.vue'
+import Orders from '../components/Orders.vue'
 
 Vue.use(VueRouter)
+Vue.use(BootstrapVue)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: Home
+    name: 'orders',
+    component: Orders
   },
   {
     path: '/about',
