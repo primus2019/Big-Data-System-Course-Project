@@ -1,5 +1,6 @@
 # my packaging
 log/
+node_modules/
 
 # HTML test samples
 *.html
